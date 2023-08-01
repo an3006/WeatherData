@@ -1,0 +1,29 @@
+.container {
+    border: 3px groove rgb(219, 137, 82);
+    margin: 30px 60px;
+    padding: 30px;
+}
+
+.table-container {
+    width: 700px;
+    height: 400px;
+    overflow: auto;
+    margin: 0 auto; /* Center the table-container horizontally */
+    justify-content: right;
+    align-items: right;
+    
+}
+
+#weather-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#weather-table th, #weather-table td {
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+#weather-table th {
+    background-color: #f2f2f2;
+}
