@@ -43,4 +43,4 @@ async function getWeatherData() {
 getWeatherData();
 
 // Fetch weather data every 6 seconds
-setInterval(getWeatherData, 6000); 
+setInterval(getWeatherData, 300000); 
